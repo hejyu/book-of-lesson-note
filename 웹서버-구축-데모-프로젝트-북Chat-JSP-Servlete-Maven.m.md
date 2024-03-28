@@ -222,6 +222,7 @@ JSESSIONID 값을 함께 서버로 보낸다. 서버는 JSESSIONID 값이 같으
 
 
 ## 7. toss 간편결제 API 사용 메뉴얼 
+
 0. 토스 개발자센터 회원가입 
 1. JSP 중고도서 아이템 요소 이벤트에서 API 서버로 UI출력 결제요청 호출
 - **결제위젯 함수로 `클라이언트 키`, `커스터머 키` 전달**
@@ -266,7 +267,8 @@ JSESSIONID 값을 함께 서버로 보낸다. 서버는 JSESSIONID 값이 같으
 - `PayRequestSuccessController.java`
 
 - `paymentKey` :  결제를 식별하는 키 값입니다. 토스페이먼츠에서 발급합니다. 결제 승인, 결제 조회, 결제 취소 등 운영에 필요한 값입니다.
- 
+
+    ![alt text](image-29.png) 
 
 ## 8. Filter 필터 - `SessionFilter` `SetEncodingFilter`
 필터는 WAS가 동적 요청을 처리하는 컨트롤러 서블릿에게
